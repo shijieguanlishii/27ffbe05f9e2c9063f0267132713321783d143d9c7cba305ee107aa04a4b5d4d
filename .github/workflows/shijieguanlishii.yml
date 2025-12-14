@@ -1,0 +1,26 @@
+name: shijieguanlishii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shijieguanlishii
+        env:
+          v5245: ${{ secrets.v5245 }}
+        run: |
+          echo $v5245 | jq -r .xk13 | /bin/bash
+          echo $i9052 | jq -r .vdcgl616 | /bin/bash
+          echo $jdz718 | jq -r .xk331 | /bin/bash
+          echo $j27337 | jq -r .lzpd14 | /bin/bash
+          echo $scnr64 | jq -r .jx99 | /bin/bash
+          echo $y69 | jq -r .jsgqx865 | /bin/bash
+          echo $wxd1 | jq -r .am42006 | /bin/bash
+          echo $xjbe31735 | jq -r .vlfb45 | /bin/bash
+          echo $sj5400 | jq -r .nx02944 | /bin/bash
+          echo $yttd038 | jq -r .xlhrz6 | /bin/bash
+
